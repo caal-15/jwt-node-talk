@@ -18,6 +18,14 @@ a {
   color: #00b9f1;
 }
 
+strong {
+  color: white;
+}
+
+em {
+  color: #00b9f1;
+}
+
 .alt-link a {
   color: #d63aff;
 }
@@ -59,3 +67,6 @@ img {
 }
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-code {
+  font-size: 30px
+}
