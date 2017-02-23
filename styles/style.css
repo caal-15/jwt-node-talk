@@ -27,7 +27,7 @@ em {
 }
 
 .alt-link a {
-  color: #d63aff;
+  color: #f92672;
 }
 
 a:hover {
@@ -37,6 +37,10 @@ a:hover {
 img {
   width: 40%;
   margin: 10px;
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 .remark-slide-content {

@@ -14,8 +14,9 @@ class: left, middle
 
 # ¿Qué Son?
 
-.big[JSON Web Tokens, son un estándar abierto que define una forma compacta y segura
-de transmitir información entre distintos interesados como objetos JSON.]
+.big[JSON Web Tokens, son un estándar abierto que define una forma _compacta_ y
+_segura_ de transmitir información entre distintos interesados como objetos
+JSON.]
 .footnote[.alt-link[[El estándar](https://tools.ietf.org/html/rfc7519)]]
 
 ---
@@ -109,3 +110,26 @@ const token = (
   header + '.' + payload + '.' + signature
 )
 ```
+
+---
+class: center, middle
+
+# Implementando en Node.js
+
+## ¿Qué vamos a usar?
+
+.big[
+* Framework con soporte para middleware ([restify](http://restify.com/), [express](http://expressjs.com/), etc.).
+* Librería para firma y verificación de JWT: [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
+* Middleware de manejo de seguridad: [passport.js](http://passportjs.org/).
+* Estrategia para passport: [passport-jwt](https://github.com/themikenicholson/passport-jwt).
+* Base de Datos: [MongoDB](https://www.mongodb.com/).
+* ODM: [mongoose](http://mongoosejs.com/).
+]
+
+.footnote[.alt-link[[Repositorio](https://github.com/caal-15/jwt-fiddle)]]
+
+---
+class: center, middle
+
+# Gracias por su atención!
