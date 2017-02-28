@@ -46,6 +46,15 @@ class: left middle
 ]
 
 ---
+class: left, middle
+
+# ¿Cómo se ve un JWT?
+
+.big[Es Simplemente una _cadena_, con tres secciones separadas por puntos:]
+
+![A JWT](img/encoded-jwt.png)
+
+---
 class: center, middle
 
 # Composición
@@ -110,6 +119,13 @@ const token = (
   header + '.' + payload + '.' + signature
 )
 ```
+
+---
+class: left, middle
+
+# Proceso de Autenticación
+
+![JWT Auth Process](img/arch.png)
 
 ---
 class: center, middle
